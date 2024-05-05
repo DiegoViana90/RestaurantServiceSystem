@@ -42,3 +42,7 @@ D:\desenvolvimento\RestaurantServiceSystem\RestaurantServiceSystem.Infrastructur
 D:\desenvolvimento\RestaurantServiceSystem\RestaurantServiceSystem.Infrastructure\obj\Debug\net6.0\refint\RestaurantServiceSystem.Infrastructure.dll
 D:\desenvolvimento\RestaurantServiceSystem\RestaurantServiceSystem.Infrastructure\obj\Debug\net6.0\RestaurantServiceSystem.Infrastructure.pdb
 D:\desenvolvimento\RestaurantServiceSystem\RestaurantServiceSystem.Infrastructure\obj\Debug\net6.0\ref\RestaurantServiceSystem.Infrastructure.dll
+D:\desenvolvimento\RestaurantServiceSystem\RestaurantServiceSystem.Infrastructure\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\desenvolvimento\RestaurantServiceSystem\RestaurantServiceSystem.Infrastructure\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\desenvolvimento\RestaurantServiceSystem\RestaurantServiceSystem.Infrastructure\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\desenvolvimento\RestaurantServiceSystem\RestaurantServiceSystem.Infrastructure\bin\Debug\net6.0\Microsoft.OpenApi.dll

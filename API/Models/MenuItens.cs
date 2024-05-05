@@ -2,8 +2,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace RestaurantServiceSystem.Models
 {
-    [Table("Food")]
-    public class Food
+    [Table("MenuItens")]
+    public class MenuItens
     {
         [Column("Id")]
         public int Id { get; set; }
@@ -16,5 +16,8 @@ namespace RestaurantServiceSystem.Models
 
         [Column("StockQuantity")]
         public int StockQuantity { get; set; }
+
+        [Column("OrderType")]
+        public OrderType OrderType { get; set; }
     }
 }

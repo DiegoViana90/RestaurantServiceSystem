@@ -8,14 +8,11 @@ namespace RestaurantServiceSystem.Models
         [Column("Id")]
         public int Id { get; set; }
 
-        [Column("TableNumber")]
-        public int TableNumberId { get; set; }
+        [Column("RestaurantTable")]
+        public int RestaurantTableId { get; set; }
 
-        [Column("Food")]
-        public string? FoodId { get; set; }
-
-        [Column("Drink")]
-        public string? DrinkId { get; set; }
+        [Column("OrderType")]
+        public OrderType OrderType { get; set; }
 
         [Column("OpenOrder")]
         public bool OpenOrder { get; set; }

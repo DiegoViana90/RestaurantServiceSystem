@@ -1,24 +1,20 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using RestaurantServiceSystem.Models;
 using System.Diagnostics;
 
 namespace RestaurantServiceSystem.Controllers
 {
-    public class HomeController : Controller
+    public class ProductController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<ProductController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public ProductController(ILogger<ProductController> logger)
         {
             _logger = logger;
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult CreatedBy()
+        public IActionResult Product()
         {
             return View();
         }

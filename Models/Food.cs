@@ -11,7 +11,10 @@ namespace RestaurantServiceSystem.Models
         [Column("Name")]
         public string Name { get; set; }
 
-        [Column("Quantity")]
-        public int Quantity { get; set; }
+        [Column("Price")]
+        public decimal Price { get; set; }
+
+        [Column("StockQuantity")]
+        public int StockQuantity { get; set; }
     }
 }

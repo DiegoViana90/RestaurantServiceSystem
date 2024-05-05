@@ -12,7 +12,7 @@ namespace RestaurantServiceSystem.Models
         public int RestaurantTableId { get; set; }
 
         [Column("OrderType")]
-        public enum OrderType { get; set; }
+        public OrderType OrderType { get; set; }
 
         [Column("OpenOrder")]
         public bool OpenOrder { get; set; }

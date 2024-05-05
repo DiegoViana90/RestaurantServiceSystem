@@ -18,6 +18,6 @@ namespace RestaurantServiceSystem.Models
         public int StockQuantity { get; set; }
 
         [Column("OrderType")]
-        public enum OrderType { get; set; }
+        public OrderType OrderType { get; set; }
     }
 }

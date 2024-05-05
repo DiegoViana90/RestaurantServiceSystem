@@ -6,3 +6,28 @@
     <h1 class="display-4">Lista de produtos</h1>
     <p>Estes são os produtos e suas disponibilidades</p>
 </div>
+
+<div class="container">
+    <ul class="nav nav-tabs justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" onclick="openTab(evt, 'tab1')">Comida</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" onclick="openTab(evt, 'tab2')">Bebida</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Desativado</a>
+        </li>
+    </ul>
+
+    <div id="tab1" class="tab-content" style="display:block">
+        <h3>Comidas</h3>
+        <p>Criar tabela de comida pós get no banco.</p>
+    </div>
+    <div id="tab2" class="tab-content" style="display:none">
+        <h3>Bebidas</h3>
+        <p>Criar tabela de bebida pós get no banco.</p>
+    </div>
+</div>
+
+<script src="..RestaurantServiceSystem\API\wwwroot\js\site.js"></script>

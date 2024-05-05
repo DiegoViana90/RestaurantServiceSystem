@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\desenvolvimento\\RestaurantServiceSystem\\RestaurantServiceSystem\\RestaurantServiceSystem.Infrastructure\\RestaurantServiceSystem.Infrastructure.csproj": {}
+    "D:\\desenvolvimento\\RestaurantServiceSystem\\RestaurantServiceSystem.Infrastructure\\RestaurantServiceSystem.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\desenvolvimento\\RestaurantServiceSystem\\RestaurantServiceSystem\\API\\RestaurantServiceSystem.csproj": {
+    "D:\\desenvolvimento\\RestaurantServiceSystem\\API\\RestaurantServiceSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\desenvolvimento\\RestaurantServiceSystem\\RestaurantServiceSystem\\API\\RestaurantServiceSystem.csproj",
+        "projectUniqueName": "D:\\desenvolvimento\\RestaurantServiceSystem\\API\\RestaurantServiceSystem.csproj",
         "projectName": "RestaurantServiceSystem",
-        "projectPath": "D:\\desenvolvimento\\RestaurantServiceSystem\\RestaurantServiceSystem\\API\\RestaurantServiceSystem.csproj",
+        "projectPath": "D:\\desenvolvimento\\RestaurantServiceSystem\\API\\RestaurantServiceSystem.csproj",
         "packagesPath": "C:\\Users\\dtvia\\.nuget\\packages\\",
-        "outputPath": "D:\\desenvolvimento\\RestaurantServiceSystem\\RestaurantServiceSystem\\API\\obj\\",
+        "outputPath": "D:\\desenvolvimento\\RestaurantServiceSystem\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dtvia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -67,14 +67,14 @@
         }
       }
     },
-    "D:\\desenvolvimento\\RestaurantServiceSystem\\RestaurantServiceSystem\\RestaurantServiceSystem.Infrastructure\\RestaurantServiceSystem.Infrastructure.csproj": {
+    "D:\\desenvolvimento\\RestaurantServiceSystem\\RestaurantServiceSystem.Infrastructure\\RestaurantServiceSystem.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\desenvolvimento\\RestaurantServiceSystem\\RestaurantServiceSystem\\RestaurantServiceSystem.Infrastructure\\RestaurantServiceSystem.Infrastructure.csproj",
+        "projectUniqueName": "D:\\desenvolvimento\\RestaurantServiceSystem\\RestaurantServiceSystem.Infrastructure\\RestaurantServiceSystem.Infrastructure.csproj",
         "projectName": "RestaurantServiceSystem.Infrastructure",
-        "projectPath": "D:\\desenvolvimento\\RestaurantServiceSystem\\RestaurantServiceSystem\\RestaurantServiceSystem.Infrastructure\\RestaurantServiceSystem.Infrastructure.csproj",
+        "projectPath": "D:\\desenvolvimento\\RestaurantServiceSystem\\RestaurantServiceSystem.Infrastructure\\RestaurantServiceSystem.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\dtvia\\.nuget\\packages\\",
-        "outputPath": "D:\\desenvolvimento\\RestaurantServiceSystem\\RestaurantServiceSystem\\RestaurantServiceSystem.Infrastructure\\obj\\",
+        "outputPath": "D:\\desenvolvimento\\RestaurantServiceSystem\\RestaurantServiceSystem.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dtvia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -91,8 +91,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\desenvolvimento\\RestaurantServiceSystem\\RestaurantServiceSystem\\API\\RestaurantServiceSystem.csproj": {
-                "projectPath": "D:\\desenvolvimento\\RestaurantServiceSystem\\RestaurantServiceSystem\\API\\RestaurantServiceSystem.csproj"
+              "D:\\desenvolvimento\\RestaurantServiceSystem\\API\\RestaurantServiceSystem.csproj": {
+                "projectPath": "D:\\desenvolvimento\\RestaurantServiceSystem\\API\\RestaurantServiceSystem.csproj"
               }
             }
           }

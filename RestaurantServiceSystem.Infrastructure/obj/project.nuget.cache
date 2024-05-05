@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PveCFYArFGIiRP3lskePbsxFmFJR9xphiLRNKPv4PNMcb0wS9ZoLDDiEbEEQ/v0LJ1eSkmLp/wJIFYKU1tFOEw==",
+  "dgSpecHash": "X/KaAEo75IbxGt294yWB1pj7NLPV4kWJkcE3ynwlGUit1e1qoRb25vFr0iIrO882WC+YGPe+vFTyIsXPBslctw==",
   "success": true,
-  "projectFilePath": "D:\\desenvolvimento\\RestaurantServiceSystem\\RestaurantServiceSystem\\RestaurantServiceSystem.Infrastructure\\RestaurantServiceSystem.Infrastructure.csproj",
+  "projectFilePath": "D:\\desenvolvimento\\RestaurantServiceSystem\\RestaurantServiceSystem.Infrastructure\\RestaurantServiceSystem.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dtvia\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
     "C:\\Users\\dtvia\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0\\microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",

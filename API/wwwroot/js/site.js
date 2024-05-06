@@ -1,4 +1,6 @@
 ﻿function openTab(evt, tabName) {
+    evt.preventDefault()
+    debugger
     var i, tabContent, tabLinks;
     tabContent = document.getElementsByClassName("tab-content");
     for (i = 0; i < tabContent.length; i++) {

@@ -7,27 +7,15 @@
     <p>Estes são os produtos e suas disponibilidades</p>
 </div>
 
-<div class="container">
-    <ul class="nav nav-tabs justify-content-center">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#" onclick="openTab(evt, 'tab1')">Comida</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#" onclick="openTab(evt, 'tab2')">Bebida</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Desativado</a>
-        </li>
-    </ul>
-
-    <div id="tab1" class="tab-content" style="display:block">
-        <h3>Comidas</h3>
-        <p>Criar tabela de comida pós get no banco.</p>
-    </div>
-    <div id="tab2" class="tab-content" style="display:none">
-        <h3>Bebidas</h3>
-        <p>Criar tabela de bebida pós get no banco.</p>
-    </div>
+<ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Comidas</button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Bebidas</button>
+    </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">Exibir lista de comidas buscadas do banco.</div>
+    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">Exibir lista de bebidas buscadas do banco.</div>
 </div>
-
-<script src="..RestaurantServiceSystem\API\wwwroot\js\site.js"></script>

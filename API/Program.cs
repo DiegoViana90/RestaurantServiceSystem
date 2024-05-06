@@ -1,6 +1,7 @@
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Builder;
 
 namespace RestaurantServiceSystem
 {
@@ -20,6 +21,14 @@ namespace RestaurantServiceSystem
             });
 
             var app = builder.Build();
+
+            // Configure CORS
+            app.UseCors(options =>
+            {
+                options.AllowAnyOrigin();
+                options.AllowAnyMethod();
+                options.AllowAnyHeader();
+            });
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())

@@ -19,11 +19,6 @@ namespace RestaurantServiceSystem.Controllers
             _logger = logger;
         }
 
-        public IActionResult Product()
-        {
-            return View();
-        }
-
         /// <summary>
         /// Insere no banco de dados comida ou bebida ao estoque.
         /// </summary>
@@ -51,11 +46,18 @@ namespace RestaurantServiceSystem.Controllers
             }
         }
 
+
         [NonAction]
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        [NonAction]
+        public IActionResult Product()
+        {
+            return View();
         }
     }
 }

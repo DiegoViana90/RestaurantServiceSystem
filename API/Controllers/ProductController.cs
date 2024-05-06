@@ -19,6 +19,11 @@ namespace RestaurantServiceSystem.Controllers
             _logger = logger;
         }
 
+        public IActionResult Product()
+        {
+            return View();
+        }
+
         /// <summary>
         /// Insere no banco de dados comida ou bebida ao estoque.
         /// </summary>

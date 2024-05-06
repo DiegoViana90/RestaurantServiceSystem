@@ -1,6 +1,6 @@
-﻿using RestaurantServiceSystem.Models.Enum;
+﻿using RestaurantServiceSystem.API.Models.Enum;
 
-namespace RestaurantServiceSystem.Models.Request
+namespace RestaurantServiceSystem.API.Models.Request
 {
     public class InsertMenuItensRequest
     {
@@ -11,3 +11,4 @@ namespace RestaurantServiceSystem.Models.Request
         public OrderType OrderType { get; set; }
     }
 }
+

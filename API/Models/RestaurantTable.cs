@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace RestaurantServiceSystem.Models
+using RestaurantServiceSystem.API.Models.Enum;
 {
     [Table("RestaurantTable")]
     public class RestaurantTable

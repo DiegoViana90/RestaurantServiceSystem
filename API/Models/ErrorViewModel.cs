@@ -1,4 +1,4 @@
-namespace RestaurantServiceSystem.Models;
+using RestaurantServiceSystem.API.Models.Enum;
 
 public class ErrorViewModel
 {

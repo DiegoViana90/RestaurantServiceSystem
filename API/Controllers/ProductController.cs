@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using RestaurantServiceSystem.Models.Request;
+using RestaurantServiceSystem.API.Models.Request;
 
 namespace RestaurantServiceSystem.Controllers
 {
@@ -33,10 +33,8 @@ namespace RestaurantServiceSystem.Controllers
         {
             try
             {
-                var teste = "to testando aqui";
-
-
-                return Ok(teste);
+                //InsertMenuItens(insertMenuItensRequest);
+                return Ok(testee);
             }
             catch (Exception ex)
             {

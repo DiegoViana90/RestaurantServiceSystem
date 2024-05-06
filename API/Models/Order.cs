@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations.Schema;
+using RestaurantServiceSystem.Models.Enum
 
 namespace RestaurantServiceSystem.Models
 {

@@ -1,6 +1,9 @@
-﻿public enum OrderType
+﻿namespace RestaurantServiceSystem.Models.Enum
 {
-    Food = 1,
-    Drink = 2,
-    Both = 3
+    public enum OrderType
+    {
+        Food = 1,
+        Drink = 2,
+        Both = 3
+    }
 }

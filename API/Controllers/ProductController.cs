@@ -1,10 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
-using RestaurantServiceSystem.Models;
 using System.Collections.Generic;
 using System.Diagnostics;
-
+using RestaurantServiceSystem.Models.Request;
 
 namespace RestaurantServiceSystem.Controllers
 {
@@ -22,20 +21,20 @@ namespace RestaurantServiceSystem.Controllers
         /// <summary>
         /// Insere no banco de dados comida ou bebida ao estoque.
         /// </summary>
-        /// <param name="InsertMenuItensRequest">Filtros.</param>
+        /// <param name="insertMenuItensRequest">Filtros.</param>
         /// <returns>OK</returns>
         /// <response code="200">Insert realizado com sucesso.</response>
         /// <response code="400"></response>
 
-        [HttpPost] 
+        [HttpPost]
         [ProducesResponseType(typeof(string), 200)]
         [ProducesResponseType(400)]
-        public ActionResult<string> PostProduct([FromBody] InsertMenuItensRequest InsertMenuItensRequest)
+        public ActionResult<string> PostProduct([FromBody] InsertMenuItensRequest insertMenuItensRequest)
         {
             try
             {
                 var teste = "to testando aqui";
-             
+
 
                 return Ok(teste);
             }
@@ -44,20 +43,6 @@ namespace RestaurantServiceSystem.Controllers
                 _logger.LogError(ex, "Erro ao processar a requisição.");
                 return BadRequest("Ocorreu um erro ao processar a requisição.");
             }
-        }
-
-
-        [NonAction]
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
-
-        [NonAction]
-        public IActionResult Product()
-        {
-            return View();
         }
     }
 }

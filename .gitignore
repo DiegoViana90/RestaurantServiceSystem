@@ -136,3 +136,4 @@ _NCrunch*
 /RestaurantServiceSystem.Infrastructure/obj/Debug/net6.0/RestaurantServiceSystem.Infrastructure.AssemblyInfoInputs.cache
 /RestaurantServiceSystem.Infrastructure/obj/Release/net6.0/RestaurantServiceSystem.Infrastructure.AssemblyInfo.cs
 /RestaurantServiceSystem.Infrastructure/obj/Release/net6.0/RestaurantServiceSystem.Infrastructure.AssemblyInfoInputs.cache
+*.sqlite

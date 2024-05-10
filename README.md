@@ -5,4 +5,5 @@ Repositório referente à sistema de atendimento de restaurante:
 
 
 Estrutura inicial do banco:
-![image](https://github.com/DiegoViana90/RestaurantServiceSystem/assets/77411511/9cd1e093-a20b-448c-b0e0-eefe8a681c67)
+![image](https://github.com/DiegoViana90/RestaurantServiceSystem/assets/77411511/3e839a4b-ca65-4291-b54e-a8ce1631581a)
+
